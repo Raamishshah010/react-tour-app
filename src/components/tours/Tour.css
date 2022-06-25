@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+:root {
+    --primary-color: #ff8021;
+}
+
+.btn-primary{
+    background-color: var(--primary-color) !important;
+    border:  var(--primary-color) !important;
+}
+
+.headings{
+    color: var(--primary-color);
+}
+
+
+.Tours_main{
+    margin: 2rem 4rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    /* box-shadow: 5px 6px 1rem rgba(0, 0, 0, 0.056); */
+}
+
+.header .logo h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.header .header_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header_links p{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+.tour_hero{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0;
+    margin-bottom: 6rem;
+}
+
+.hero_info{
+    margin-right: 2rem;
+}
+
+.hero_info h1{
+    font-family: "Alfa Slab One", cursive;
+    color: rgb(62, 62, 62);
+    margin: 5rem auto;
+}
+.tour_hero img{
+    /* width: 100%; */
+    border-radius: 9px;
+}
+
+
+.all_tours{
+    margin-top: 3rem;
+}
+
+.all_tours h1{
+    font-family: "Alfa Slab One", cursive;
+    color: rgb(62, 62, 62);
+}
+
+.all_tours .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all_tours .cards .card{
+    list-style: none;
+    flex: 0 0 33.333333%;
+    margin-top: 2rem;
+    /* background-color: var(--primary-color); */
+    /* margin */
+}

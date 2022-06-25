@@ -1,0 +1,125 @@
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+    :root {
+    --primary-color: #ff8021;
+    }
+
+    .destination {
+    width: 100%;
+    margin: 4rem;
+    transform: translateY(-129px);
+    }
+
+    .destinationName {
+    color: var(--primary-color);
+    }
+
+    .destination h1 {
+    margin-left: 4rem;
+    text-transform: uppercase;
+    font-family: "Alfa Slab One", cursive;
+    margin-top: 6rem;
+    color: #0b1d0bc0;
+    }
+
+    .destination .destination_cards {
+    display: flex;
+    overflow: scroll;
+    }
+
+    .destination .destination_cards::-webkit-scrollbar {
+    display: none;
+    }
+
+    .destination .destination_cards .tour_card {
+    box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    -webkit-box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    -moz-box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    border-radius: 1rem;
+    margin: 2rem;
+    font-family: "Open Sans", sans-serif;
+    padding: 1rem;
+    }
+
+    .destination .destination_cards .tour_card img {
+    height: 400px;
+    width: 400px;
+    }
+
+    .destination .destination_cards .tour_card h4 {
+    margin-top: 1rem;
+    font-weight: 700;
+    }
+
+    .destination .destination_cards .tour_card h6 {
+    font-size: 0.8rem;
+    }
+
+    .destination .destination_cards .tour_card .card_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .destination .destination_cards .tour_card .card_bottom .info {
+    margin-top: 0.7rem;
+    }
+
+    .destination .destination_cards .tour_card .card_bottom .info .priceTag {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    }
+
+    .destination .destination_cards .tour_card .card_bottom .info .price {
+    font-size: 2rem;
+    color: #0b1d0bc0;
+    font-weight: 500;
+    }
+    .destination .destination_cards .tour_card .card_bottom .btn button {
+    border: 1px solid var(--primary-color);
+    padding: 4px 3rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    }
+
+    .hotel .hotel_cards {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .hotel .hotel_cards .hotel_card {
+    flex: 0 0 28.333333%;
+    margin-top: 3rem;
+    box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    -webkit-box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    -moz-box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+    padding: 20px;
+    margin: 20px;
+    }
+    .hotel .hotel_cards .hotel_card img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+    }
+    .hotel .hotel_cards .hotel_card button {
+        border: 1px solid var(--primary-color);
+        padding: 4px 3rem;
+        background-color: var(--primary-color);
+        color: #fff;
+    }
+
+
+    @media only screen and (max-width: 857px){
+
+
+        .hotel .hotel_cards .hotel_card {
+            flex: 0 0 80.333333%;
+            margin-top: 3rem;
+            box-shadow: -4px 1px 23px -2px rgb(0 0 0 / 3%);
+            -webkit-box-shadow: -4px 1px 23px -2px rgb(0 0 0 / 3%);
+            -moz-box-shadow: -4px 1px 23px -2px rgba(0, 0, 0, 0.033);
+            padding: 20px;
+            margin: 20px;
+        }
+    }
